@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Tab 1 </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <p>This page will be updated based on the events dispatched by the Tab2Page</p>
+
+  <div class="user-details" *ngIf="isSignedIn">
+    <p><strong>User ID:</strong> {{ id }}</p>
+    <p><strong>Email:</strong> {{ email }}</p>
+  </div>
+</ion-content>

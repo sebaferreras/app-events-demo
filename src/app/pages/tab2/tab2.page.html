@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Tab 2 </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <p>
+    This page will dispatch events that will be handled in the Tab1Page.
+  </p>
+
+  <ion-row>
+    <ion-col>
+      <ion-button
+        expand="block"
+        color="primary"
+        (click)="dispatchSignInEvent()"
+      >
+        Sign In
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button
+        expand="block"
+        color="danger"
+        (click)="dispatchSignOutEvent()"
+      >
+        Sign Out
+      </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-content>
