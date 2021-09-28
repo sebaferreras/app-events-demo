@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "app-events",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
